@@ -1,0 +1,33 @@
+{
+  "name": "genpark-personal-inbox-cognitive-triage-skill",
+  "version": "1.0.0",
+  "description": "Personal inbox cognitive triage engine classifying actionability, effort duration, and urgency to prevent attention fragmentation.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "personal-agent",
+    "inbox-zero",
+    "cognitive-triage",
+    "productivity",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "triage_message",
+      "description": "Classify message urgency, required action type, and cognitive load."
+    },
+    {
+      "name": "generate_action_queue",
+      "description": "Sort pending messages into 2-min quick hits vs deep focus slots."
+    },
+    {
+      "name": "estimate_cognitive_effort",
+      "description": "Estimate reading and reply effort in minutes."
+    },
+    {
+      "name": "run_benchmark_inbox_triage",
+      "description": "Run comprehensive message triage benchmark."
+    }
+  ]
+}
