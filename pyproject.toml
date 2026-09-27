@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-inbox-triage"
+version = "1.0.0"
+description = "Personal inbox cognitive triage engine classifying actionability and reading effort."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "GenPark AI Engineering", email = "engineering@genpark.ai" }
+]
+keywords = ["ai-agent", "mcp", "model-context-protocol", "zero-dependency", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://genpark.ai/mcp"
+"Repository" = "https://github.com/Alpha-Park/genpark-personal-inbox-cognitive-triage-skill"
+"Documentation" = "https://github.com/Alpha-Park/genpark-personal-inbox-cognitive-triage-skill#readme"
+"Bug Tracker" = "https://github.com/Alpha-Park/genpark-personal-inbox-cognitive-triage-skill/issues"
+
+[project.scripts]
+genpark-inbox-triage = "client:main"
